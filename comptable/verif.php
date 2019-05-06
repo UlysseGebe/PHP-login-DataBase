@@ -21,6 +21,7 @@ if(isset($_GET['id']) AND !empty($_GET['id'])) {
 
                 // On redirige le visiteur vers la page d'accueil
                 header ('location: ../index.php');
+                exit;
             }
         }
     } 
